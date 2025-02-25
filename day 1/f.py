@@ -3,9 +3,12 @@
 A = list(map(int, input().split()))
 n = len(A)
 seen = set()
-ans = []
+distinct = []
+dupes = set()
 for x in A:
     if x not in seen:
-        ans.append(x)
+        distinct.append(x)
         seen.add(x)
-print(ans)
+    else:
+        dupes.add(x)
+print(distinct, dupes)
