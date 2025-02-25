@@ -3,6 +3,6 @@
 A = list(map(int, input().split()))
 ans = float('inf')
 for x in A:
-    if x > 0 and x < ans:
-        ans = x
+    if abs(x) < ans:
+        ans = abs(x)
 print(ans)
