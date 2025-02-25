@@ -4,5 +4,5 @@ A = list(map(int, input().split()))
 ans = float('inf')
 for x in A:
     if abs(x) < ans:
-        ans = abs(x)
+        ans = x
 print(ans)
