@@ -2,4 +2,4 @@
 
 text = 'Hello World!'
 
-print(set(x.lower() for x in text if x.isalpha()))
+print(dict.fromkeys(x.lower() for x in text if x.isalpha()).keys())
