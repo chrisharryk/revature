@@ -29,9 +29,9 @@ def calculator(exp):
     ops = '*', '/', '-', '+'
     for x in postfix:
         if x.isdigit():
-            stk.append(int(x))
+            stk.append(float(x))
         elif x in ops:
-            X, Y = int(stk[-2]), int(stk[-1])
+            X, Y = float(stk[-2]), float(stk[-1])
             stk = stk[:-2]
             if x == '+': stk.append(X+Y)
             if x == '-': stk.append(X-Y)
@@ -39,5 +39,3 @@ def calculator(exp):
             if x == '*': stk.append(X*Y)
 
     return stk[0]
-
-print(calculator('2 + 3 * (4 - 1)'))
