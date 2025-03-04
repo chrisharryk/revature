@@ -1,3 +1,6 @@
 INFO:root:2025-03-04 16:47:40.659919 - INFO - Valid expression: 2 + 3 * (4 - 1)
 INFO:root:2025-03-04 16:47:40.659919 - INFO - Result of the expression is: 15.0
 INFO:root:2025-03-04 16:47:40.659919 - INFO - Exiting program
+INFO:root:2025-03-04 17:06:26 - INFO - Valid expression: 2 + 3 * (4 - 1)
+INFO:root:2025-03-04 17:06:26 - INFO - Result of the expression is: 15.0
+INFO:root:2025-03-04 17:06:26 - INFO - Exiting program
